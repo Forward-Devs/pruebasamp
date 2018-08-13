@@ -4,8 +4,9 @@
     "keywords": ["samp", "composer", "pcu", "samp"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
     "require": {
-      "forwarddevs/pruebasamp":"dev-master@dev"
+        "php": ">=5.6"
     },
     "require-dev": {
 
