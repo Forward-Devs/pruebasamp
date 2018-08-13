@@ -4,9 +4,13 @@
     "keywords": ["samp", "composer", "pcu", "samp"],
     "license": "MIT",
     "type": "project",
+    "require": {
+      "forwarddevs/pruebasamp":"dev-master@dev"
+    },
     "require-dev": {
 
     },
+
     "scripts": {
         "post-root-package-install": [
             "@php -r \"file_exists('server.cfg') || copy('example.cfg', 'server.cfg');\""
